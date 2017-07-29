@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					4BA64D671F2C196E00A95326 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZHXGT3MXFC;
 						ProvisioningStyle = Automatic;
 					};
 					4BA64D801F2C196E00A95326 = {
@@ -424,7 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHXGT3MXFC;
 				INFOPLIST_FILE = FastPitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qweeinc.FastPitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +438,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHXGT3MXFC;
 				INFOPLIST_FILE = FastPitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qweeinc.FastPitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +512,7 @@
 				4BA64D971F2C196E00A95326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BA64D981F2C196E00A95326 /* Build configuration list for PBXNativeTarget "FastPitchTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +521,7 @@
 				4BA64D9A1F2C196E00A95326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BA64D9B1F2C196E00A95326 /* Build configuration list for PBXNativeTarget "FastPitchUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +530,7 @@
 				4BA64D9D1F2C196E00A95326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
