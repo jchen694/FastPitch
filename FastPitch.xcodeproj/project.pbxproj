@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BA64D701F2C196E00A95326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA64D6F1F2C196E00A95326 /* AppDelegate.m */; };
-		4BA64D731F2C196E00A95326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA64D721F2C196E00A95326 /* ViewController.m */; };
 		4BA64D761F2C196E00A95326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA64D741F2C196E00A95326 /* Main.storyboard */; };
 		4BA64D781F2C196E00A95326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA64D771F2C196E00A95326 /* Assets.xcassets */; };
 		4BA64D7B1F2C196E00A95326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA64D791F2C196E00A95326 /* LaunchScreen.storyboard */; };
@@ -593,6 +591,7 @@
 				4BA64D971F2C196E00A95326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BA64D981F2C196E00A95326 /* Build configuration list for PBXNativeTarget "FastPitchTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +600,7 @@
 				4BA64D9A1F2C196E00A95326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BA64D9B1F2C196E00A95326 /* Build configuration list for PBXNativeTarget "FastPitchUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +609,7 @@
 				4BA64D9D1F2C196E00A95326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
