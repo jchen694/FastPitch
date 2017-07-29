@@ -16,8 +16,8 @@
 		4BA64D911F2C196E00A95326 /* FastPitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA64D901F2C196E00A95326 /* FastPitchUITests.m */; };
 		4BA64DB21F2C204000A95326 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA64DAF1F2C1FF700A95326 /* GPUImage.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		4BA64DB41F2C20C600A95326 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BA64DAF1F2C1FF700A95326 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4BA64DB91F2C37FC00A95326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA64DB81F2C37FC00A95326 /* ViewController.swift */; };
 		4BA64DBB1F2C3F9100A95326 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA64DBA1F2C3F9100A95326 /* PhotoViewController.swift */; };
+		4BA64DBD1F2C448100A95326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA64DBC1F2C448100A95326 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,8 +88,8 @@
 		4BA64D901F2C196E00A95326 /* FastPitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastPitchUITests.m; sourceTree = "<group>"; };
 		4BA64D921F2C196E00A95326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BA64DA61F2C1FF700A95326 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../../Downloads/GPUImage-master/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
-		4BA64DB81F2C37FC00A95326 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BA64DBA1F2C3F9100A95326 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		4BA64DBC1F2C448100A95326 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +146,8 @@
 				4BA64D6F1F2C196E00A95326 /* AppDelegate.m */,
 				4BA64D711F2C196E00A95326 /* ViewController.h */,
 				4BA64D721F2C196E00A95326 /* ViewController.m */,
-				4BA64DB81F2C37FC00A95326 /* ViewController.swift */,
 				4BA64DBA1F2C3F9100A95326 /* PhotoViewController.swift */,
+				4BA64DBC1F2C448100A95326 /* ViewController.swift */,
 				4BA64D741F2C196E00A95326 /* Main.storyboard */,
 				4BA64D771F2C196E00A95326 /* Assets.xcassets */,
 				4BA64D791F2C196E00A95326 /* LaunchScreen.storyboard */,
@@ -342,10 +342,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA64D731F2C196E00A95326 /* ViewController.m in Sources */,
 				4BA64DBB1F2C3F9100A95326 /* PhotoViewController.swift in Sources */,
-				4BA64D701F2C196E00A95326 /* AppDelegate.m in Sources */,
-				4BA64DB91F2C37FC00A95326 /* ViewController.swift in Sources */,
+				4BA64DBD1F2C448100A95326 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,7 +502,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qweeinc.FastPitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FastPitch/FastPitch-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = FastPitch.Swift.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -519,7 +518,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qweeinc.FastPitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FastPitch/FastPitch-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = FastPitch.Swift.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
